@@ -2,8 +2,10 @@ html{
     background-color: rgb(219, 253, 211);
 }
 body{
-    max-width: 750px;
+    max-width: 850px;
     margin: auto;
+    background: rgb(204,255,167);
+    background: linear-gradient(0deg, rgba(204,255,167,1) 27%, rgba(130,199,141,1) 100%);
 }
 #welcome {
     text-align: center;
@@ -42,8 +44,7 @@ article p {
 }
 header{
     text-align: center;
-    background: rgb(204,255,167);
-    background: linear-gradient(0deg, rgba(204,255,167,1) 27%, rgba(130,199,141,1) 100%);
+    
     padding-top: 1em;
 }
 header img{
