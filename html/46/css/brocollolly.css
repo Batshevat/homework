@@ -1,0 +1,131 @@
+html{
+    background-color: rgb(219, 253, 211);
+}
+body{
+    max-width: 850px;
+    margin: auto;
+    padding-bottom: 3em;
+    background: rgb(204,255,167);
+    background: linear-gradient(0deg, rgba(204,255,167,1) 27%, rgba(130,199,141,1) 100%);
+}
+#welcome {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    font-weight: 700;
+    color: darkolivegreen;
+    text-shadow: 2px 2px 2px seagreen;
+
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    font-weight: 700;
+    color: darkolivegreen;
+    text-shadow: 2px 2px 2px seagreen;
+
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+article{
+    margin: auto;
+    margin-top: 358.717px;
+    padding-top: .01em;
+}
+
+article p {
+    text-align: center;
+    color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    position: fixed;
+    text-align: center;    
+    padding-top: 1em;
+    top: 0;
+    width: 100%;
+    max-width: 850px;
+    background: rgb(148,187,233);
+background: radial-gradient(circle, rgba(148,187,233,1) 13%, rgba(164,238,163,1) 54%, rgba(166,221,220,1) 93%);
+}
+header img{
+    height: 110px;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+}
+.arrow{
+    height: 47px;
+    width: 43px;
+    position:absolute;
+    bottom: 100px;
+}
+
+img .menuitem{
+    text-align: center;
+    height: 110px;
+    width: 180px;
+    
+    
+}
+h3{
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+.menuitem{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkolivegreen;
+    line-height: 1.5em;
+}
+.nutrition{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+}
+a{
+    font-weight: 530;
+    text-decoration: none;
+    border: 2px solid darkolivegreen;
+    border-radius: 2em;
+    color: darkolivegreen;
+    padding-left: .2em;
+    padding-right: .2em;
+    background-color: rgb(147, 214, 158);
+    font-family: 'Concert One', cursive;   
+}
+a:hover{
+    color: darkturquoise;
+}
+a:focus{
+    color: salmon;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: .5em;
+}
+video{
+   width:  100%;
+}
+ul li{
+    display: inline;
+}
+nav{
+    text-align: center;
+}
