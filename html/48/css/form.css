@@ -1,0 +1,19 @@
+input, textarea{
+    display:block; 
+    box-sizing: border-box;
+    margin: 1em;
+    text-align: center;
+}
+label{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    padding: 1em;
+    color: darkolivegreen;
+}
+button{
+    font-family: 'Concert One', cursive;
+    color:darkolivegreen; 
+    height: 2em;
+    width: 5em;
+    margin: 1em;
+}
