@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            gap: 1em;
+            grid-template: repeat(7, [column-start] 100px);
+            grid-auto-rows: 100px;
+            grid-auto-columns: 100px;
+        }
+
+        div {
+            background-color: orangered;
+            grid-column: column-start / span 1;
+        }
+
+        @media screen and (min-width: 700px) {
+            div {
+                background-color: teal;
+            }
+
+            div:nth-child(odd) {
+                background-color: teal;
+                grid-column: column-start 2/column-start 3;
+            }
+
+            div:nth-child(1) {
+                background-color: teal;
+                grid-column: column-start 1/column-start 3;
+            }
+
+            @media screen and (min-width: 900px) {
+                div {
+                    background-color: maroon;
+                }
+
+                div:nth-child(1) {
+                    background-color: maroon;
+                    grid-column: column-start 1/column-start 3;
+                }
+
+                div:nth-child(2) {
+                    background-color: maroon;
+                    grid-column: column-start 3/column-start 4;
+                }
+
+                div:nth-child(3) {
+                    background-color: maroon;
+                    grid-column: column-start 4/column-start 5;
+                }
+
+                div:nth-child(4) {
+                    background-color: maroon;
+                    grid-column: column-start 1/column-start 2;
+                }
+
+                div:nth-child(5) {
+                    background-color: maroon;
+                    grid-column: column-start 2/column-start 3;
+                }
+
+                div:nth-child(6) {
+                    background-color: maroon;
+                    grid-column: column-start 3/column-start 4;
+                }
+
+                div:nth-child(7) {
+                    background-color: maroon;
+                    grid-column: column-start 4/column-start 5;
+                }
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>
