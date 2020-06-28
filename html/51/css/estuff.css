@@ -1,0 +1,144 @@
+body{
+    max-width: 90%;
+    font-family: Helvetica, arial, sans-serif;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+nav{   
+    top: 0;   
+}
+nav, footer{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 2em;
+    left: 0;
+    line-height: 2em;
+}
+footer{
+    bottom: 0;
+}
+footer p{
+    color: white;
+    margin-top: 0;
+    margin-left: 1em;
+}
+   
+ul{
+    margin: 0;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1em;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+header div{
+    height: 10em;
+    text-align: center;
+    padding-top: 1em;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+header h1{
+    text-transform: uppercase;
+}
+
+   
+
+#products article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: span 3;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    text-align: justify;
+    gap: 1em;
+}
+#products h4{
+    text-align: center;
+}
+
+.computer, .choir{
+    border-right: 1px solid black;
+    padding-right: 1em;}
+img, video{
+        width: 100%;
+    }
+    .computer{
+        grid-column: span 1/2;
+    }
+    .choir{
+        grid-column: 2/3;
+    }
+    .candy{
+        grid-column: 3/4;
+    }
+
+  @media screen and (max-width: 1000px){
+        #products div{
+            grid-column:  2/5;
+            border: transparent;
+            }
+         input{
+                display: block;
+                margin: auto;
+         } 
+      }
+#signUp {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1em;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+input{
+    box-shadow: 2px 2px 2px black;
+}
+table{
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin: auto;
+    display: block;
+    overflow: auto;
+    
+}
+td,th{
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+
+td{
+    text-align: right;
+}
+td:nth-child(1){
+    font-weight: bold;
+    padding: 0;
+    
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+tr:hover{
+    background-color: lightskyblue;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+tbody td:last-child, tfoot td:last-child{
+    color: red;
+}
+
+
