@@ -1,0 +1,15 @@
+[
+    {
+        "name": "challah",
+        "img": "challah.pg",
+        "ingredients": [
+            "flour",
+            "water",
+            "yeast",
+            "eggs",
+            "oil",
+            "sugar",
+            "salt"
+        ]
+    }
+]

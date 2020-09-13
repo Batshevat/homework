@@ -1,0 +1,14 @@
+[
+    {
+        "name": "kugel",
+        "img": "kugel.jpg",
+        "ingredients": [
+            "potatoes",
+            "onions",
+            "eggs",
+            "oil",
+            "salt",
+            "pepper"
+        ]
+    }
+]

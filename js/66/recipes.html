@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-style: italic;
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        button {
+            padding: .2em;
+            border-radius: .5em;
+            margin: .5em;
+        }
+    </style>
+</head>
+
+<body>
+    <p>What will you make today?</p>
+    <div class="button">
+        <button type="button" id="shnitzel">Shnitzel</button>
+        <button id="challah">Challah</button>
+        <button id="kugel">Kugel</button>
+        <button id="clear">Clear</button></div>
+    <pre id="result"></pre>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="recipes.js"></script>
+</body>
+
+</html>
