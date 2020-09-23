@@ -1,0 +1,17 @@
+[    
+        {
+                "name": "short dialogue",
+                "url": "media/short dialogue.mp4",
+                "image":"media/hebrew speech.jpg"
+            },
+            {
+                "name": "learn hebrew",
+                "url": "media/learn hebrew.mp4"
+            },
+            {
+                "name": "hebrew news",
+                "url": "media/hebrew news.mp4"
+            }
+
+
+]
