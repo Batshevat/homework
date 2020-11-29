@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+
+        #addAnts {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="addAnts">
+        amount: <input id="amount" type="number" min="1" max="10000">
+        color: <input type="color" id="color">
+        <button>add</button>
+    </form>
+    <canvas id="theCanvas"></canvas>
+    <script src="ant.js"></script>
+</body>
+
+</html>
