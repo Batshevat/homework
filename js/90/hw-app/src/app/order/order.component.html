@@ -1,0 +1,7 @@
+<div>
+    Order date:{{order.date.toLocaleDateString()}}
+    <br>
+    <app-person [person]='order.customer'></app-person>
+    <br>
+    <app-item [item]='order.item'></app-item>
+</div>
