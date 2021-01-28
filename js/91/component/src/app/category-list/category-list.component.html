@@ -1,0 +1,11 @@
+<select #categorySelect (change)="categorySelected(categorySelect.value)">
+    <option *ngFor='let category of categories'>
+        {{category.name}}
+    </option>
+</select>
+
+<ul>
+    <li *ngFor="let item of selectedCategory?.items">
+        {{item.name}} - {{item.price}}
+    </li>
+</ul>
