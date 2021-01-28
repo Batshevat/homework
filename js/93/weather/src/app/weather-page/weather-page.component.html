@@ -1,0 +1,10 @@
+<form>
+    <input #zipInput id="zip" placeholder="enter zip code" (change)="getWeather(zipInut.value)" />
+</form>
+<ng-container *ngIf='weather'>
+    <app-weather [weather]="weather"></app-weather>
+</ng-container>
+
+<div>
+    Please enter a Zip Code
+</div>
