@@ -1,0 +1,8 @@
+<h2>My Cart</h2>
+
+{{#items}}
+{{item.name}}
+{{item.price}}
+{{item.description}}
+{{count}}
+{{/items}}
