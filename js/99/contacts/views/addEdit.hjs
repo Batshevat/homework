@@ -1,0 +1,22 @@
+<form id="contactForm">
+    <div class="formGroup">
+        <label for="first">first:</label>
+        <input id="first" name="first" {{#contact}}value="{{first}}" {{/contact}}>
+    </div>
+    <div class="formGroup">
+        <label for="last">last:</label>
+        <input id="last" required name="last" {{#contact}}value="{{last}}" {{/contact}}>
+    </div>
+    <div class="formGroup">
+        <label for="email">email:</label>
+        <input id="email" type="email" name="email" {{#contact}}value="{{email}}" {{/contact}}>
+    </div>
+    <div class="formGroup">
+        <label for="phone">phone:</label>
+        <input id="phone" name="phone" {{#contact}}value="{{phone}}" {{/contact}}>
+    </div>
+    <div class="buttons">
+        <button>save</button>
+        <a href="/contacts">cancel</a>
+    </div>
+</form>

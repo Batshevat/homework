@@ -1,0 +1,23 @@
+<p>Welcome to {{ title }}</p>
+
+<ul>
+  {{#repo}}
+  <li>{{name}}</li>
+  {{/repo}}
+</ul>
+
+<ul>
+  {{#names}}
+  <li>{{.}}</li>
+  {{/names}}
+</ul>
+
+<ul>
+  {{#emptyArray}}
+  <li>{{.}}</li>
+  {{/emptyArray}}
+</ul>
+
+{{#isEmpty}}
+the array is empty
+{{/isEmpty}}
